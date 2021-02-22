@@ -64,12 +64,12 @@ cfg = {'lambda_large': 1,
        'lambda_small': 2,
        'max_large': 2,
        'max_small': 5,
-       'angles_stddev_large': 5, #10.,
-       'angles_stddev_small': 2, #3.,
-       'trans_stddev_large': 5, #10.,
-       'trans_stddev_small': 2, #2.,
-       'min_kspace': 0.1, #0.25,
-       'max_kspace': 0.9, #0.75,
+       'angles_stddev_large': 10.,
+       'angles_stddev_small': 3.,
+       'trans_stddev_large': 10.,
+       'trans_stddev_small': 2.,
+       'min_kspace': 0.25,
+       'max_kspace': 0.75,
        'pad_width': 20,
        'trajectory':'cartesian',
        'debug':False}
@@ -82,7 +82,7 @@ MODE = 'train'
 batch_size = 16
 lr = 1e-3
 dropout = 0.2
-label_smoothing = 0.1
+label_smoothing = 0.05
 epochs = 100
 artefact_prob = 0.5
 out_dim = 1
