@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+pillow
+torch
+torchvision
+monai
+nibabel
+scikit-learn
+scikit-image
+albumentations
+opencv-python
